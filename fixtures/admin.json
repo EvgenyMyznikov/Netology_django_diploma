@@ -1,0 +1,1367 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2021-05-01T13:11:51.323Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "b69520707c58c545824f8ec3063e7183cc794784",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2021-05-01T13:15:33.162Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "Testuser",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2021-05-01T13:16:08.943Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "Testuser",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2021-05-01T13:17:08.099Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "testuser",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2021-05-01T13:17:26.459Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "338fa5cc838b987b24b498c31a16c90f36d47f06",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.308Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "110",
+    "object_repr": "Заказ № 110 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.313Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "109",
+    "object_repr": "Заказ № 109 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.314Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "108",
+    "object_repr": "Заказ № 108 на сумму 469980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.315Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "107",
+    "object_repr": "Заказ № 107 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.316Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "106",
+    "object_repr": "Заказ № 106 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.317Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "105",
+    "object_repr": "Заказ № 105 на сумму 469980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.318Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "104",
+    "object_repr": "Заказ № 104 на сумму 469980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.320Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "103",
+    "object_repr": "Заказ № 103 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.321Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "102",
+    "object_repr": "Заказ № 102 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.322Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "101",
+    "object_repr": "Заказ № 101 на сумму 299980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.323Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "100",
+    "object_repr": "Заказ № 100 на сумму 469980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.324Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "99",
+    "object_repr": "Заказ № 99 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.326Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "98",
+    "object_repr": "Заказ № 98 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.327Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "97",
+    "object_repr": "Заказ № 97 на сумму 469980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.327Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "96",
+    "object_repr": "Заказ № 96 на сумму 469980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.328Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "95",
+    "object_repr": "Заказ № 95 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.329Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "94",
+    "object_repr": "Заказ № 94 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.330Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "93",
+    "object_repr": "Заказ № 93 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.331Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "92",
+    "object_repr": "Заказ № 92 на сумму 469980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.331Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "91",
+    "object_repr": "Заказ № 91 на сумму 469980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.332Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "90",
+    "object_repr": "Заказ № 90 на сумму 469980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.333Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "89",
+    "object_repr": "Заказ № 89 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.333Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "88",
+    "object_repr": "Заказ № 88 на сумму 469980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.334Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "87",
+    "object_repr": "Заказ № 87 на сумму 469980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.335Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "86",
+    "object_repr": "Заказ № 86 на сумму 469980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.336Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "85",
+    "object_repr": "Заказ № 85 на сумму 299980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.336Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "84",
+    "object_repr": "Заказ № 84 на сумму 299980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.337Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "83",
+    "object_repr": "Заказ № 83 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.338Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "82",
+    "object_repr": "Заказ № 82 на сумму 299980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.338Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "81",
+    "object_repr": "Заказ № 81 на сумму 299980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.339Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "80",
+    "object_repr": "Заказ № 80 на сумму 299980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.339Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "79",
+    "object_repr": "Заказ № 79 на сумму 299980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.340Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "78",
+    "object_repr": "Заказ № 78 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.341Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "77",
+    "object_repr": "Заказ № 77 на сумму 299980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.342Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "76",
+    "object_repr": "Заказ № 76 на сумму 469980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.342Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "75",
+    "object_repr": "Заказ № 75 на сумму 299980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.343Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "74",
+    "object_repr": "Заказ № 74 на сумму 469980.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.344Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "73",
+    "object_repr": "Заказ № 73 на сумму 1579940.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.344Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "72",
+    "object_repr": "Заказ № 72 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.345Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "71",
+    "object_repr": "Заказ № 71 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.346Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "70",
+    "object_repr": "Заказ № 70 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.346Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "69",
+    "object_repr": "Заказ № 69 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.347Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "68",
+    "object_repr": "Заказ № 68 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.348Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "67",
+    "object_repr": "Заказ № 67 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.348Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "66",
+    "object_repr": "Заказ № 66 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.349Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "65",
+    "object_repr": "Заказ № 65 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.350Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "64",
+    "object_repr": "Заказ № 64 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.351Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "63",
+    "object_repr": "Заказ № 63 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.351Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "62",
+    "object_repr": "Заказ № 62 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.352Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "61",
+    "object_repr": "Заказ № 61 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.353Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "60",
+    "object_repr": "Заказ № 60 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.354Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "59",
+    "object_repr": "Заказ № 59 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.355Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "58",
+    "object_repr": "Заказ № 58 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.356Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "57",
+    "object_repr": "Заказ № 57 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.357Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "56",
+    "object_repr": "Заказ № 56 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.358Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "55",
+    "object_repr": "Заказ № 55 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.359Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "54",
+    "object_repr": "Заказ № 54 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.359Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "53",
+    "object_repr": "Заказ № 53 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.360Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "52",
+    "object_repr": "Заказ № 52 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.361Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "51",
+    "object_repr": "Заказ № 51 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.361Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "50",
+    "object_repr": "Заказ № 50 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.362Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "49",
+    "object_repr": "Заказ № 49 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.363Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "48",
+    "object_repr": "Заказ № 48 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.364Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "47",
+    "object_repr": "Заказ № 47 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.364Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "46",
+    "object_repr": "Заказ № 46 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.365Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "45",
+    "object_repr": "Заказ № 45 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.366Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "44",
+    "object_repr": "Заказ № 44 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.366Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "43",
+    "object_repr": "Заказ № 43 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.367Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "42",
+    "object_repr": "Заказ № 42 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.368Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "41",
+    "object_repr": "Заказ № 41 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.368Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "40",
+    "object_repr": "Заказ № 40 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.369Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "39",
+    "object_repr": "Заказ № 39 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.370Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "38",
+    "object_repr": "Заказ № 38 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.370Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "37",
+    "object_repr": "Заказ № 37 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.371Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "36",
+    "object_repr": "Заказ № 36 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.372Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "35",
+    "object_repr": "Заказ № 35 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.373Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "34",
+    "object_repr": "Заказ № 34 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.374Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "33",
+    "object_repr": "Заказ № 33 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.374Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "32",
+    "object_repr": "Заказ № 32 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.375Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "31",
+    "object_repr": "Заказ № 31 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.376Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "30",
+    "object_repr": "Заказ № 30 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.376Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "29",
+    "object_repr": "Заказ № 29 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.377Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "28",
+    "object_repr": "Заказ № 28 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.377Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "27",
+    "object_repr": "Заказ № 27 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.378Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "26",
+    "object_repr": "Заказ № 26 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.379Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "25",
+    "object_repr": "Заказ № 25 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.379Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "24",
+    "object_repr": "Заказ № 24 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.380Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "23",
+    "object_repr": "Заказ № 23 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.381Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "22",
+    "object_repr": "Заказ № 22 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.382Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "21",
+    "object_repr": "Заказ № 21 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.382Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "20",
+    "object_repr": "Заказ № 20 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.383Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "19",
+    "object_repr": "Заказ № 19 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.384Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "18",
+    "object_repr": "Заказ № 18 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.385Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "17",
+    "object_repr": "Заказ № 17 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.386Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "16",
+    "object_repr": "Заказ № 16 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.386Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "15",
+    "object_repr": "Заказ № 15 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.387Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "14",
+    "object_repr": "Заказ № 14 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2021-05-05T22:58:30.388Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "13",
+    "object_repr": "Заказ № 13 на сумму 17.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2021-05-05T22:59:53.869Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "112",
+    "object_repr": "Заказ № 112 на сумму 0",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product order position\", \"object\": \"ProductOrderPosition object (61)\"}}, {\"added\": {\"name\": \"product order position\", \"object\": \"ProductOrderPosition object (62)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2021-05-05T23:00:15.667Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "112",
+    "object_repr": "Заказ № 112 на сумму 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+}
+]

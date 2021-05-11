@@ -1,0 +1,202 @@
+# http-файл с примерами запросов.
+# Токен admin: b69520707c58c545824f8ec3063e7183cc794784
+# Токен testuser: 338fa5cc838b987b24b498c31a16c90f36d47f06
+
+GET http://127.0.0.1:8000/api/v1/products/
+Content-Type: application/json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/products/7
+Content-Type: application/json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/products/?name=MacBook
+Content-Type: application/json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/products/?description=Smartphone
+Content-Type: application/json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/products/?min_price=10000
+Content-Type: application/json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/products/?max_price=300000
+Content-Type: application/json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/products/
+Content-Type: application/json
+Authorization: Token b69520707c58c545824f8ec3063e7183cc794784
+
+{
+  "name": "Polet",
+  "description": "Watch",
+  "price": 10000
+}
+
+###
+
+PUT http://127.0.0.1:8000/api/v1/products/10/
+Content-Type: application/json
+Authorization: Token b69520707c58c545824f8ec3063e7183cc794784
+
+{
+  "name": "Vostok",
+  "description": "Watch",
+  "price": 10000
+}
+
+###
+
+DELETE http://127.0.0.1:8000/api/v1/products/10/
+Content-Type: application/json
+Authorization: Token b69520707c58c545824f8ec3063e7183cc794784
+
+###
+
+GET http://127.0.0.1:8000/api/v1/product-reviews/
+Content-Type: application/json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/product-reviews/
+Content-Type: application/json
+Authorization: Token 338fa5cc838b987b24b498c31a16c90f36d47f06
+
+{
+  "product_id": 1,
+  "rating": 5,
+  "text": "Стильный ноутбук с хорошим функционалом и новейшим процессором M1 от Apple"
+}
+
+###
+
+PATCH http://127.0.0.1:8000/api/v1/product-reviews/2/
+Content-Type: application/json
+Authorization: Token 338fa5cc838b987b24b498c31a16c90f36d47f06
+
+{
+  "id": 2,
+  "author_id": "testuser",
+  "product_id": 5,
+  "rating": "5",
+  "text": "Стильные часы от Apple с красивым дизайном и хорошим функционалом",
+  "created_at": "2021-05-01T18:18:59.210408+03:00",
+  "updated_at": "2021-05-01T18:18:59.210447+03:00"
+}
+
+###
+
+DELETE http://127.0.0.1:8000/api/v1/product-reviews/4/
+Content-Type: application/json
+Authorization: Token b69520707c58c545824f8ec3063e7183cc794784
+
+###
+
+GET http://127.0.0.1:8000/api/v1/orders/111
+Content-Type: application/json
+Authorization: Token b69520707c58c545824f8ec3063e7183cc794784
+
+###
+
+POST http://127.0.0.1:8000/api/v1/orders/
+Content-Type: application/json
+Authorization: Token 338fa5cc838b987b24b498c31a16c90f36d47f06
+
+{
+  "positions": [
+    {
+      "product": 1,
+      "quantity": 1
+    },
+    {
+      "product": 2,
+      "quantity": 1
+    }
+  ]
+}
+
+###
+
+PATCH http://127.0.0.1:8000/api/v1/orders/111/
+Content-Type: application/json
+Authorization: Token b69520707c58c545824f8ec3063e7183cc794784
+
+{
+  "order_status": "2"
+}
+
+###
+
+GET http://127.0.0.1:8000/api/v1/orders/?positions=3
+Content-Type: application/json
+Authorization: Token b69520707c58c545824f8ec3063e7183cc794784
+
+###
+
+GET http://127.0.0.1:8000/api/v1/orders/?order_status=2
+Content-Type: application/json
+Authorization: Token b69520707c58c545824f8ec3063e7183cc794784
+
+###
+
+DELETE http://127.0.0.1:8000/api/v1/orders/100/
+Content-Type: application/json
+Authorization: Token b69520707c58c545824f8ec3063e7183cc794784
+
+###
+
+GET http://127.0.0.1:8000/api/v1/product-collections/
+Content-Type: application/json
+
+###
+
+POST http://127.0.0.1:8000/api/v1/product-collections/
+Content-Type: application/json
+Authorization: Token b69520707c58c545824f8ec3063e7183cc794784
+
+{
+  "title": "Collection 1",
+  "text": "Apple iPhone 12 Pro Max + Watch",
+  "collections": [
+    {
+      "product_id": 3
+    },
+    {
+      "product_id": 5
+    }
+  ]
+}
+
+###
+
+#PATCH http://127.0.0.1:8000/api/v1/product-collections/8/
+#Content-Type: application/json
+#Authorization: Token b69520707c58c545824f8ec3063e7183cc794784
+#
+#{
+#  "title": "Collection 1",
+#  "text": "Apple iPhone XR + Apple Watch 6",
+#  "collections": [
+#    {
+#      "product_id": 4
+#    },
+#    {
+#      "product_id": 5
+#    }
+#  ]
+#}
+#
+#### ???????? не получается!!!
+
+DELETE http://127.0.0.1:8000/api/v1/product-collections/13/
+Content-Type: application/json
+Authorization: Token b69520707c58c545824f8ec3063e7183cc794784
