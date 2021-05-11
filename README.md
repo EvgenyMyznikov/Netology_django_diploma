@@ -160,7 +160,7 @@ ___
 
 * ####Необходимо создать clone репозитория 
 
-`git clone https://github.com/EvgenyMyznikov/Netology_django.git`
+`git clone https://github.com/EvgenyMyznikov/Netology_django_diploma.git`
 
 * ####Установить зависимости:
 
